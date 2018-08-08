@@ -46,6 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/volte/lettuce/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/volte/lettuce/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/volte/lettuce/proprietary/app/ims/ims.apk:system/app/ims/ims.apk \
-    vendor/volte/lettuce/proprietary/app/ims/imssettings.apk:system/app/ims/imssettings.apk \
+    vendor/volte/lettuce/proprietary/app/imssettings/imssettings.apk:system/app/imssettings/imssettings.apk \
     vendor/volte/lettuce/proprietary/framework/imscmlibrary:system/framework/imscmlibrary.jar
     vendor/volte/lettuce/proprietary/framework/imslibrary:system/framework/imslibrary.jar

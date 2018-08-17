@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Flag specifying whether VoLTE TTY is supported -->
-    <!-- bool name="config_carrier_volte_tty_supported">false</bool> --?
+    <!-- bool name="config_carrier_volte_tty_supported">false</bool> -->
 
     <!-- Config determines whether to update phone object when voice registration
          state changes. Voice radio tech change will always trigger an update of

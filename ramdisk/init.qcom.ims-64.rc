@@ -59,7 +59,7 @@ service imsqmidaemon /vendor/bin/imsqmidaemon
     group radio net_raw log diag
     writepid /dev/cpuset/system-background/tasks
 
-service qti_ims /system/bin/sh /init.qti.ims.sh
+service qti_ims /vendor/bin/sh /init.qti.ims.sh
     class core
     user radio
     group radio

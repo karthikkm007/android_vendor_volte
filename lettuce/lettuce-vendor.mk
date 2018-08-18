@@ -45,7 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/volte/lettuce/proprietary/vendor/lib64/lib-rtpsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-rtpsl.so \
     vendor/volte/lettuce/proprietary/vendor/lib64/libvcel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcel.so \
     vendor/volte/lettuce/proprietary/vendor/lib64/libvoice-svc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoice-svc.so \
-    vendor/volte/lettuce/proprietary/app/ims/ims.apk:$(TARGET_COPY_OUT_VENDOR)/app/ims/ims.apk \
-    vendor/volte/lettuce/proprietary/app/imssettings/imssettings.apk:$(TARGET_COPY_OUT_VENDOR)/app/imssettings/imssettings.apk \
     vendor/volte/lettuce/proprietary/framework/imscmlibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/imscmlibrary.jar \
     vendor/volte/lettuce/proprietary/framework/imslibrary.jar:$(TARGET_COPY_OUT_VENDOR)/framework/imslibrary.jar
+
+BUILD_PREBUILT_APPS += \
+    vendor/volte/lettuce/proprietary/app/ims/ims.apk:$(TARGET_COPY_OUT_VENDOR)/app/ims/ims.apk \
+    vendor/volte/lettuce/proprietary/app/imssettings/imssettings.apk:$(TARGET_COPY_OUT_VENDOR)/app/imssettings/imssettings.apk 

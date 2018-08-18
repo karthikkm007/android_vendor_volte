@@ -34,11 +34,10 @@
 #    persist.dbg.wfc_avail_ovr=1
 
 # libshims
-#PRODUCT_PACKAGES += \
-#   libshim_parcel \
-#   libshim_boringssl \
-#   libshims_camera \
-#   libshims_ims
+PRODUCT_PACKAGES += \
+   libshim_parcel \
+   libshim_boringssl \
+   libshims_ims
 
 # Ramdisk
 PRODUCT_COPY_FILES += \

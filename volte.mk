@@ -39,13 +39,6 @@ PRODUCT_PACKAGES += \
    libshim_boringssl \
    libshims_ims
 
-# Ramdisk
-PRODUCT_COPY_FILES += \
-    vendor/volte/ramdisk/init.qti.ims.sh:$(TARGET_OUT_VENDOR_EXECUTABLES)/init.qti.ims.sh
-
-PRODUCT_COPY_FILES += \
-    vendor/volte/ramdisk/init.qcom.ims-32.rc:$(TARGET_OUT_VENDOR_ETC)/init/hw/init.qcom.ims.rc
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/volte/overlay
 PRODUCT_PACKAGE_OVERLAYS += device/volte/overlay

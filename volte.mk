@@ -38,7 +38,9 @@ PRODUCT_PACKAGES += \
    libshim_parcel \
    libshim_boringssl \
    libshims_ims \
-   libshims_camera 
+   libshims_camera \
+   init.qcom.ims.rc \
+   init.qti.ims.sh
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/volte/overlay

@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),jalebi)
+ifeq ($(TARGET_DEVICE),wt88047)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims

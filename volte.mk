@@ -37,7 +37,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
    libshim_parcel \
    libshim_boringssl \
-   libshims_ims
+   libshims_ims \
+   libshims_camera 
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/volte/overlay
